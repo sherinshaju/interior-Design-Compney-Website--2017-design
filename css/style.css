@@ -1,0 +1,430 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-inverse {
+background-color: #FFF;
+border-color: #FFFFFF;
+}
+	   
+.navbar {
+position: relative;
+min-height: 15px;
+margin-bottom:8px;
+border: 1px solid transparent;
+margin-bottom:0px;
+}
+	   
+.navbar-inverse .navbar-nav>li>a {
+color:#000;
+}	   
+	   
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+color:#3374ba;
+background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+color:#3374ba;
+background-color: #ED2A2A;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #ED2A2A;
+}
+
+
+.banner{height:650px;
+padding:0px;
+overflow:hidden;
+        }
+		
+.navbar-inverse .navbar-toggle {
+border-color: #3374ba;
+}	
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+background-color:#3374ba;
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color:#3374ba;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+background-color:#3374ba;
+}
+
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+background-color:#FFF;
+}
+
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+background-color:#FFF;
+}
+
+	
+.works{height:120px;
+      font-size:34px;
+	  padding-top:40px;}
+
+
+.discover{height:auto;
+         }
+
+.design{height:auto;
+         }
+
+.movein{height:auto;
+margin-bottom:30px;
+        }
+		 
+.image{height:auto;
+       
+	   padding-top:20px;}		 
+		 
+.aboutimg{height:auto;
+       }			 
+		 
+		 
+#disc{font-size:27px;}		 
+		 
+#disck{font-size:16px;}		 
+		 
+		 
+		 
+.works1{height:80px;
+padding-top:20px;
+     }
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}		 
+
+#knight {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#000;
+  padding:0px;
+  
+}
+
+.container:hover .overlay {
+  opacity:.7
+}
+
+
+
+
+
+
+
+
+
+
+		 
+	
+.services{height:90px;
+      font-size:34px;
+	  padding-top:20px;}		 
+		 
+	
+.aboutservices{height:auto;
+      font-size:18px;
+	  margin-bottom:30px;
+	  }		 
+		 
+.Interior{height:350px;
+         }		 
+		 
+		 
+.house{height:350px;
+        }		 
+		 
+		 
+.Lighting{height:350px;
+          }	
+
+
+
+
+.Furniture{height:350px;
+          }
+
+
+.works2{height:80px;
+padding-top:20px;
+       
+		}
+
+.cogallery{height:80px;
+      
+		font-size:24px;
+		color:#3374ba;
+		padding-top:25px;
+		}
+.galleryimage{height:300px;
+              
+			  padding:5px;}
+
+.galleryimage2{height:300px;
+             
+			  padding:5px;}
+
+.galleryimage3{height:300px;
+              
+			  padding:5px;
+			  overflow:hidden;}
+
+
+.galleryimage4{height:300px;
+             
+			  padding:5px;}
+
+
+
+.works5{height:80px;
+  
+	 margin-top:20px;
+	 padding-top:20px;}
+
+
+
+.ajo{height:auto;
+     margin-bottom:20px;
+     }
+	 
+
+.sonam{height:400px;
+      }
+	  
+	  
+
+.jibin{height:400px;
+     }	  
+	  
+	  
+	  
+.ajoimage{height:150px;
+          }	  
+	  
+.ajodetiles{height:250px;
+         }	  
+	  
+#mon{font-size:24px;
+      color:#3374ba;}	  
+#john{font-size:20px;}	  
+#sonam{font-size:16px;}
+
+
+
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	width:200px;
+	height:40px;
+}
+
+
+.contact1{height:400px;
+         
+		  padding:0px;}
+		  
+.contact2{height:400px;
+padding-top:30px;
+          }		  
+		  
+		  
+.form-control {
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #FFFFFF;
+background-image: none;
+border: 1px solid #337AB7;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}		  
+		  
+		  
+#usr{margin-bottom:30px;
+    height:50px;}		  
+		  
+#usr2{margin-bottom:50px;
+       height:100px;}		  
+#bu{width:100%;}		  
+	
+.footer{height:auto;
+       background-color:#333333;
+	   margin-top:20px;
+	   color:#FFF;
+	   padding-top:20px;}	
+
+@media screen and (max-width: 1230px) {
+
+.banner {
+    height: 550px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+}	
+
+
+@media screen and (max-width: 1000px) {
+
+.banner {
+    height: 450px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.jibin {
+    height:auto;
+   
+}
+
+.ajodetiles {
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+@media screen and (max-width: 767px) {
+	
+	
+.banner {
+    height: 350px;
+    padding: 0px;
+    overflow: hidden;
+}	
+	
+.ajodetiles{height:250px;
+margin-bottom:30px;
+         }	  
+	  	
+	
+	
+	}	
+			  
+@media screen and (max-width: 500px) {
+	
+	
+	
+.banner{height:220px;
+padding:0px;
+overflow:hidden;
+        }	
+	
+.ajodetiles{height:auto;
+margin-bottom:30px;
+         }	
+		 
+		 
+		 
+.jibin {
+    height:auto;
+    margin-top: 157px;
+}		 
+		 
+		 
+		 
+		 
+		   	
+	}	
+	
+	
+	
+			  
+@media screen and (max-width: 385px) {
+	
+	
+	
+.banner{height:200px;
+padding:0px;
+overflow:hidden;
+        }	
+	
+	
+	
+	
+	
+	}	
+		
+	
+			  
+@media screen and (max-width: 350px) {
+	
+	
+	
+.banner{height:180px;
+padding:0px;
+overflow:hidden;
+        }	
+	
+	
+	
+	
+	
+	}		  
